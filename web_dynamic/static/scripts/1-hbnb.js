@@ -9,11 +9,7 @@ $(document).ready(function() {
     } else {
       delete checkedAmenities[amenityId];
     }
-    updateAmenitiesHeader();
-  });
-
-  function updateAmenitiesHeader() {
     let amenitiesString = Object.values(checkedAmenities).join(', ');
     $('.amenities h4').text(amenitiesString);
-  }
+  });
 });
