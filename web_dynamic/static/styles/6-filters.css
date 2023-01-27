@@ -53,8 +53,8 @@ button:hover {
 
 .container .filters .amenities h4 {
     text-overflow: ellipsis;
+    overflow: hidden;
     white-space: nowrap;
-    position: absolute;
     width: 75%
 }
 
