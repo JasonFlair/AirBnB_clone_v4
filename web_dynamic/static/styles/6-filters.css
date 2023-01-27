@@ -51,7 +51,6 @@ button:hover {
 .amenities {
     height: 100%;
     max-width: 25%;
-    position: absolute;
 }
 
 .popover {
@@ -88,7 +87,7 @@ button:hover {
 .amenities h4 {
     text-overflow: ellipsis;
     white-space: nowrap;
-    max-width: 75%
+    max-width: 25%
 }
 
 .locations .popover {
