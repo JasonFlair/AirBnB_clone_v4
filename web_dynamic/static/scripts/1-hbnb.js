@@ -14,6 +14,6 @@ $(document).ready(function() {
 
   function updateAmenitiesHeader() {
     let amenitiesString = Object.values(checkedAmenities).join(', ');
-    $('#amenities_checked h4').text(amenitiesString);
+    $('.amenities h4').text(amenitiesString);
   }
 });
