@@ -41,6 +41,8 @@ button:hover {
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
+    text-overflow: ellipsis;
+    max-width: 75%
 }
 .locations {
     height: 100%;
@@ -64,7 +66,6 @@ button:hover {
     scrollbar-width: none;
     max-height: 300px;
     position: relative;
-    display: list-item;
 }
 
 .amenities .popover {
@@ -78,9 +79,6 @@ button:hover {
     margin: 0px;
 }
 
-.amenities h4 {
-    text-overflow: ellipsis;
-}
 
 .amenities input[type="checkbox"] {
     margin-left: 10px;
