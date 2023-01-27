@@ -5,6 +5,7 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    display: flex;
 }
 button {
     position: absolute;
@@ -22,7 +23,7 @@ button:hover {
     opacity: 0.9;
 }
 .filters div {
-    display: inline-grid;
+    display: inline-block;
 }
 .filters h2 {
     margin-left: 15%;
@@ -40,15 +41,15 @@ button:hover {
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
+    width: 75%
 }
 .locations {
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
 }
-.amenities {
-    height: 100%;
-    width: 25%;
+.container .filters .amenities {
+	width: 25%;
 }
 
 .popover {
@@ -57,15 +58,12 @@ button:hover {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     background: #FAFAFA;
-    padding-bottom: 15px;
+    padding: 30px 40px 40px 30px;
     height: 300px;
     overflow-y: scroll;
     scrollbar-width: none;
     max-height: 300px;
-}
-
-.popover::-webkit-scrollbar{
-    width: 0px;
+    position: relative;
 }
 
 .amenities .popover {
@@ -74,8 +72,21 @@ button:hover {
     margin-top: 0%;
 }
 
+
 .amenities .popover ul{
     margin: 0px;
+    position: relative;
+}
+
+
+.amenities input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.amenities h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 75%
 }
 
 .locations .popover {
