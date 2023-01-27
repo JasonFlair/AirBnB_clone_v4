@@ -41,7 +41,6 @@ button:hover {
     margin-top: 0;
     font-weight: 400;
     font-size: 14px;
-    text-overflow: ellipsis;
     max-width: 75%
 }
 .locations {
@@ -77,11 +76,17 @@ button:hover {
 
 .amenities .popover ul{
     margin: 0px;
+    position: relative;
 }
 
 
 .amenities input[type="checkbox"] {
     margin-left: 10px;
+}
+
+.amenities h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .locations .popover {
