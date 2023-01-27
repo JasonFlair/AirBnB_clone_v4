@@ -77,8 +77,7 @@ button:hover {
 }
 
 .amenities input[type="checkbox"] {
-    position: absolute;
-    left: 10px;
+    margin-left: 10px;
 }
 
 .locations .popover {
