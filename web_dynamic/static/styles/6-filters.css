@@ -23,7 +23,7 @@ button:hover {
     opacity: 0.9;
 }
 .filters div {
-    display: inline-grid;
+    display: inline-block;
 }
 .filters h2 {
     margin-left: 15%;
@@ -46,9 +46,6 @@ button:hover {
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
-}
-.container .filters .amenities {
-	width: 25%;
 }
 
 .popover {
