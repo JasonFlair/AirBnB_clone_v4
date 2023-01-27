@@ -64,6 +64,7 @@ button:hover {
     scrollbar-width: none;
     max-height: 300px;
     position: relative;
+    display: list-item;
 }
 
 .amenities .popover {
