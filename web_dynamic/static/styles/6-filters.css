@@ -50,7 +50,7 @@ button:hover {
 }
 .amenities {
     height: 100%;
-    max-width: 25%;
+    width: 25%;
     display: flex;
     flex-wrap: wrap;
 }
