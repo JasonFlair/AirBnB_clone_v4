@@ -60,7 +60,7 @@ button:hover {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     background: #FAFAFA;
-    padding-bottom: 15px;
+    padding: 30px 40px 40px 30px;
     height: 300px;
     overflow-y: scroll;
     scrollbar-width: none;
