@@ -47,6 +47,15 @@ button:hover {
     width: 25%;
     border-right: 1px solid #DDDDDD;
 }
+.container .filters .amenities {
+	width: 25%;
+}
+
+.container .filters .amenities h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 75%
+}
 
 .popover {
     visibility: hidden;
@@ -79,11 +88,7 @@ button:hover {
     margin-left: 10px;
 }
 
-.amenities h4 {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    width: 75%
-}
+
 
 .locations .popover {
     margin-top: 0%;
