@@ -76,6 +76,10 @@ button:hover {
     margin: 0px;
 }
 
+.amenities h4 {
+    text-overflow: ellipsis;
+}
+
 .amenities input[type="checkbox"] {
     margin-left: 10px;
 }
