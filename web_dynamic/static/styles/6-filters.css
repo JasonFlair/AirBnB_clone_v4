@@ -63,7 +63,9 @@ button:hover {
     scrollbar-width: none;
     max-height: 300px;
 }
-
+.amenity_checkbox {
+    margin-left: 10px;
+}
 
 .amenities .popover {
     padding: 10px 0;
