@@ -51,6 +51,7 @@ button:hover {
 .amenities {
     height: 100%;
     max-width: 25%;
+    position: absolute;
 }
 
 .popover {
