@@ -16,6 +16,7 @@ header .logo {
     justify-content: center;
     margin-right: 30px;
     width: 20px;
+    height: 30px;
     background-color: #cccccc
 }
 .available {
