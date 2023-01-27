@@ -63,6 +63,7 @@ button:hover {
     overflow-y: scroll;
     scrollbar-width: none;
     max-height: 300px;
+    position: absolute;
 }
 
 .amenities .popover {
