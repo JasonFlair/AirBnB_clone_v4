@@ -48,9 +48,6 @@ $(document).ready(function() {
                                   <div class="number_rooms">${place.number_rooms} Bedrooms</div>
                                   <div class="number_bathrooms">${place.number_bathrooms} Bathrooms</div>
                               </div>
-                              <div class="user">
-                                  <b>Owner:</b> ${place.user.first_name} ${place.user.last_name}
-                              </div>
                               <div class="description">
                                   ${place.description}
                               </div>
