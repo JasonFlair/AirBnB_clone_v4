@@ -1,15 +1,17 @@
 $(document).ready(function() {
-  const url = 'http://' + location.hostname + ':5001/api/v1/status/';
-  console.log(url);
-  $.get(url, function(data) {
+  $.get('http://${location.hostname}:5001/api/v1/status/', function(data) {
   if (data.status === 'OK') {
-    console.log('hm wait');
+    console.log('http://${location.hostname}:5001/api/v1/status/')
+    console.log('omo mehnnn')
     $('div#api_status').addClass('available');
+    console.log('reached whats wrong')
   } else {
-    console.log('somethings wrong');
     $('div#api_status').removeClass('available');
   }
   });
+});
+
+$(document).ready(function() {
   let checkedAmenities = {};
 
   $('input:checkbox').change(function() {
