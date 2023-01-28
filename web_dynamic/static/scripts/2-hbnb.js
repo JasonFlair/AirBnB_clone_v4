@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    const url = 'http//' + location.hostname + ':5000/api/status';
-    $get(url, function(response) {
+    const url = 'http://' + location.hostname + ':5001/api/v1/status';
+    $.get(url, function(response) {
         if (response.status === 'OK') {
             console.log('we re okay');
             $('div#api_status').addClass('available');
