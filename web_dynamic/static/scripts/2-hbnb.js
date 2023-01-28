@@ -7,9 +7,6 @@ $(document).ready(function() {
     $('div#api_status').removeClass('available');
   }
   });
-});
-
-$(document).ready(function() {
   let checkedAmenities = {};
 
   $('input:checkbox').change(function() {
