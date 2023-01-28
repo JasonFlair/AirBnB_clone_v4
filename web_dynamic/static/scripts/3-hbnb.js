@@ -33,7 +33,7 @@ $(document).ready(function() {
         contentType: 'application/json',
         data: JSON.stringify({}),
         success: function(response) {
-            let places = response.places;
+            let places = response;
             for (let i = 0; i < places.length; i++) {
                 let place = places[i];
                 let placeTag = `<article>
@@ -45,9 +45,6 @@ $(document).ready(function() {
                                         <div class="max_guest">${place.max_guest} Guests</div>
                                         <div class="number_rooms">${place.number_rooms} Bedrooms</div>
                                         <div class="number_bathrooms">${place.number_bathrooms} Bathrooms</div>
-                                    </div>
-                                    <div class="user">
-                                        <b>Owner:</b> ${place.user.first_name} ${place.user.last_name}
                                     </div>
                                     <div class="description">
                                         ${place.description}
