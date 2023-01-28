@@ -115,3 +115,7 @@ button:hover {
 .locations:hover .popover {
     visibility: visible;
 }
+
+.location .popover {
+    width: 50%;
+}
