@@ -34,7 +34,7 @@ $(document).ready(function() {
       contentType: 'application/json',
       data: JSON.stringify({amenities: Object.keys(checkedAmenities)}),
       success: function(response) {
-        let places = response.places;
+        let places = response;
         $('section.places').empty();
         for (let i = 0; i < places.length; i++) {
           let place = places[i];
