@@ -1,14 +1,14 @@
 $(document).ready(function() {
-  $.get('http://${location.hostname}:5001/api/v1/status/', function(data) {
-  if (data.status === 'OK') {
-    console.log('http://${location.hostname}:5001/api/v1/status/')
-    console.log('omo mehnnn')
-    $('div#api_status').addClass('available');
-    console.log('reached whats wrong')
-  } else {
-    $('div#api_status').removeClass('available');
-  }
-  });
+    const url = 'http//' + location.hostname + ':5000/api/status';
+    $get(url, function(response) {
+        if (response.status === 'OK') {
+            console.log('we re okay');
+            $('div#api_status').addClass('available');
+        } else {
+            console.log('why did we get here');
+            $('div#api_status').removeClass('available');
+        }
+    })
 });
 
 $(document).ready(function() {
