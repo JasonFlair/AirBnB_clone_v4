@@ -3,21 +3,23 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    display: flex;
+
 }
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+    width: 20%
 }
 
-#api_status {
-    align-items: right;
+header #api_status {
     border-radius: 50%;
-    justify-content: center;
-    margin-right: 30px;
     width: 40px;
     height: 40px;
-    background-color: #cccccc
+    background-color: #cccccc;
+    margin-top: 15px;
+    margin-left: 75%;
 }
 .available {
     background-color: #ff545f
