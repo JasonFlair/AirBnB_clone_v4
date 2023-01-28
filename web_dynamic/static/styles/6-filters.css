@@ -74,7 +74,6 @@ button:hover {
 
 .amenities .popover {
     padding: 10px 0;
-    margin-left: -5px;
     margin-top: 1px;
     width: 100%;
 }
@@ -94,7 +93,7 @@ button:hover {
 
 .locations .popover {
     margin-top: 0%;
-    width: 75%;
+    width: 180px;
 }
 .popover ul {
     list-style-type: none;
