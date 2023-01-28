@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $.get('http://${location.hostname}:5001/api/v1/status/', function(data) {
+  const url = 'http://' + location.hostname + ':5001/api/v1/status/';
+  $.get(url, function(data) {
   if (data.status === 'OK') {
     $('div#api_status').addClass('available');
   } else {
